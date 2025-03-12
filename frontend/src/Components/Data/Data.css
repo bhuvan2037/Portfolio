@@ -1,0 +1,100 @@
+.data-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 80px;
+
+}
+
+.main-img {
+    border: solid #4D90BA;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.data-content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.data h1 {
+    text-align: center;
+    width: 70%;
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.data-main h1 span {
+    background: linear-gradient(270deg, #f59607 20%, #aa08f5 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: "Righteous";
+}
+
+.data-name {
+    font-size: 40px;
+}
+
+.data-paragraph {
+    margin-top: 10px;
+}
+
+.data-action {
+    padding: 20px 30px;
+    align-items: center;
+    margin-left: 38%;
+    margin-top: 10px;
+}
+
+.data-connect {
+    width: 100px;
+    font-size: 20px;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #198CB8;
+    cursor: pointer;
+    transition: 0.5s;
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgb(185, 236, 156), yellow);
+}
+
+.data-connect:hover {
+    transform: scale(1.10);
+}
+
+@media(max-width:400px){
+    .main-img{
+        margin-top: 10px;
+        width: 260px;
+        align-items: center;
+        justify-self: center;  
+        
+    }
+    .logo{
+        margin-left: -70px;
+    }
+    .data h1{
+        margin-top: 50px;
+        width: 90%;
+        font-size: 50px;
+    }
+    .data p{
+        width: 60%;
+        font-size: 18px;
+        line-height: 32px;
+        margin:10px;
+    }
+    .data-action{
+        gap: 16px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+    .data-connect{
+        margin-left: -50px;
+
+    }
+}
